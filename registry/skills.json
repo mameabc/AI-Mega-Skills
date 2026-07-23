@@ -270,6 +270,40 @@
       ],
       "license": "MIT",
       "status": "stable"
+    },
+    {
+      "slug": "ai-refactoring",
+      "name": "AI Refactoring",
+      "description": "Safely improve existing code through incremental structural changes while preserving behavior and compatibility contracts.",
+      "domain": "software-engineering",
+      "subdomain": "refactoring",
+      "version": "1.0.0",
+      "owners": [
+        "maintainers"
+      ],
+      "tags": [
+        "refactoring",
+        "maintainability",
+        "behavior-preservation"
+      ],
+      "inputs": [
+        "existing code",
+        "behavior contract",
+        "maintenance problem",
+        "validation access"
+      ],
+      "outputs": [
+        "incremental refactoring plan",
+        "behavior-preserving code change",
+        "verification evidence"
+      ],
+      "validation": [
+        "repository validator passes",
+        "contract and regression checklist is complete",
+        "before-and-after examples are included"
+      ],
+      "license": "MIT",
+      "status": "stable"
     }
   ]
 }
