@@ -5,11 +5,18 @@ $requiredFiles = @(
   "ROADMAP.md",
   "CONTRIBUTING.md",
   "docs/architecture/repository-structure.md",
-  "docs/quality/skill-quality-standard.md",
-  "docs/workflow/development-workflow.md",
-  "docs/releases/versioning.md",
+  "docs/governance/ai-contributor-guide.md",
   "docs/governance/maintainers.md",
-  "docs/domains/500-skill-domain-roadmap.md"
+  "docs/quality/documentation-writing-standards.md",
+  "docs/quality/naming-conventions.md",
+  "docs/quality/repository-coding-standards.md",
+  "docs/quality/skill-authoring-standards.md",
+  "docs/quality/skill-quality-standard.md",
+  "docs/quality/skill-review-standards.md",
+  "docs/releases/release-workflow.md",
+  "docs/releases/versioning.md",
+  "docs/domains/500-skill-domain-roadmap.md",
+  "docs/workflow/development-workflow.md"
 )
 
 $missing = @()
@@ -61,4 +68,3 @@ if (Test-Path -LiteralPath "skills" -PathType Container) {
 }
 
 Write-Host "Repository validation passed."
-

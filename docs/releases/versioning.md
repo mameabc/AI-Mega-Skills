@@ -43,3 +43,11 @@ Recommended cadence:
 - Minor releases every two to four weeks during active growth.
 - Major releases only after a public migration window.
 
+## Version Rules
+
+- Never reuse a released version.
+- Do not change skill behavior without updating the skill version.
+- Do not publish breaking schema changes in a patch release.
+- Document migration steps for every major release.
+- Mark deprecated skills before removal.
+- Keep release notes tied to merged commits.
