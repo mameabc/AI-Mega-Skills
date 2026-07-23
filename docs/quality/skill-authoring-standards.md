@@ -16,6 +16,11 @@ Every skill must answer:
 ## Required Content
 
 - `SKILL.md`
+- `README.md`
+- `CHECKLIST.md`
+- `BEST_PRACTICES.md`
+- `COMMON_MISTAKES.md`
+- `TROUBLESHOOTING.md`
 - `manifest.json`
 - Realistic examples
 - Validation or review procedure
@@ -32,4 +37,4 @@ Every skill must answer:
 - Avoid unsafe automation or credential exposure.
 - Do not duplicate an existing skill.
 - Update README, registry, and category index when adding a skill.
-
+- Start from the official template in `templates/skill/`.

@@ -32,6 +32,7 @@ This repository is currently in its foundation phase. The first milestone is not
 │   └── indexes/
 ├── schemas/
 ├── scripts/
+├── templates/
 └── skills/
 ```
 
@@ -53,6 +54,8 @@ This repository is currently in its foundation phase. The first milestone is not
 - [Repository Coding Standards](docs/quality/repository-coding-standards.md)
 - [Skill Authoring Standards](docs/quality/skill-authoring-standards.md)
 - [Skill Review Standards](docs/quality/skill-review-standards.md)
+- [Skill Validation Rules](docs/quality/skill-validation-rules.md)
+- [Official Skill Template](templates/skill/README.md)
 - [Documentation Writing Standards](docs/quality/documentation-writing-standards.md)
 - [Naming Conventions](docs/quality/naming-conventions.md)
 - [Versioning](docs/releases/versioning.md)
