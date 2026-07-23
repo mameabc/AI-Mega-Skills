@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "slug": "skill-author",
+      "name": "Skill Author",
+      "description": "Create one complete, evidence-based AI Skill from the official template and prepare it for repository review.",
+      "domain": "repository-maintenance",
+      "subdomain": "skill-lifecycle",
+      "version": "1.0.0",
+      "owners": [
+        "maintainers"
+      ],
+      "tags": [
+        "authoring",
+        "templates",
+        "workflow"
+      ],
+      "inputs": [
+        "approved one-Skill proposal",
+        "repository standards",
+        "acceptance criteria"
+      ],
+      "outputs": [
+        "complete Skill directory",
+        "generated registry and README entries",
+        "validation evidence"
+      ],
+      "validation": [
+        "repository validator passes",
+        "generated outputs are current",
+        "human review is requested"
+      ],
+      "license": "MIT",
+      "status": "stable"
+    },
+    {
+      "slug": "skill-reviewer",
+      "name": "Skill Reviewer",
+      "description": "Review one proposed AI Skill for scope, quality, safety, evidence, and repository compliance before approval.",
+      "domain": "repository-maintenance",
+      "subdomain": "skill-lifecycle",
+      "version": "1.0.0",
+      "owners": [
+        "maintainers"
+      ],
+      "tags": [
+        "review",
+        "quality",
+        "governance"
+      ],
+      "inputs": [
+        "complete Skill change",
+        "related repository context",
+        "review criteria"
+      ],
+      "outputs": [
+        "structured review report",
+        "severity-ordered findings",
+        "explicit review decision"
+      ],
+      "validation": [
+        "generated output checks pass",
+        "repository validator passes",
+        "quality gate has no unresolved blocker"
+      ],
+      "license": "MIT",
+      "status": "stable"
+    },
+    {
+      "slug": "skill-validator",
+      "name": "Skill Validator",
+      "description": "Run and interpret fresh automated checks for a Skill and its generated repository registration outputs.",
+      "domain": "repository-maintenance",
+      "subdomain": "skill-lifecycle",
+      "version": "1.0.0",
+      "owners": [
+        "maintainers"
+      ],
+      "tags": [
+        "validation",
+        "automation",
+        "quality"
+      ],
+      "inputs": [
+        "repository checkout",
+        "changed Skill path",
+        "validation scope"
+      ],
+      "outputs": [
+        "fresh command results",
+        "failure or pass report",
+        "human-review handoff"
+      ],
+      "validation": [
+        "registry check passes",
+        "README check passes",
+        "repository validator and diff check pass"
+      ],
+      "license": "MIT",
+      "status": "stable"
+    }
+  ]
+}

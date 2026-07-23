@@ -1,0 +1,15 @@
+{
+  "slug": "skill-validator",
+  "name": "Skill Validator",
+  "description": "Run and interpret fresh automated checks for a Skill and its generated repository registration outputs.",
+  "domain": "repository-maintenance",
+  "subdomain": "skill-lifecycle",
+  "version": "1.0.0",
+  "owners": ["maintainers"],
+  "tags": ["validation", "automation", "quality"],
+  "inputs": ["repository checkout", "changed Skill path", "validation scope"],
+  "outputs": ["fresh command results", "failure or pass report", "human-review handoff"],
+  "validation": ["registry check passes", "README check passes", "repository validator and diff check pass"],
+  "license": "MIT",
+  "status": "stable"
+}

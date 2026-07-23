@@ -1,0 +1,15 @@
+{
+  "slug": "skill-author",
+  "name": "Skill Author",
+  "description": "Create one complete, evidence-based AI Skill from the official template and prepare it for repository review.",
+  "domain": "repository-maintenance",
+  "subdomain": "skill-lifecycle",
+  "version": "1.0.0",
+  "owners": ["maintainers"],
+  "tags": ["authoring", "templates", "workflow"],
+  "inputs": ["approved one-Skill proposal", "repository standards", "acceptance criteria"],
+  "outputs": ["complete Skill directory", "generated registry and README entries", "validation evidence"],
+  "validation": ["repository validator passes", "generated outputs are current", "human review is requested"],
+  "license": "MIT",
+  "status": "stable"
+}

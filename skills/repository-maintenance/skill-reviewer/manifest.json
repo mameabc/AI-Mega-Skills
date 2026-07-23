@@ -1,0 +1,15 @@
+{
+  "slug": "skill-reviewer",
+  "name": "Skill Reviewer",
+  "description": "Review one proposed AI Skill for scope, quality, safety, evidence, and repository compliance before approval.",
+  "domain": "repository-maintenance",
+  "subdomain": "skill-lifecycle",
+  "version": "1.0.0",
+  "owners": ["maintainers"],
+  "tags": ["review", "quality", "governance"],
+  "inputs": ["complete Skill change", "related repository context", "review criteria"],
+  "outputs": ["structured review report", "severity-ordered findings", "explicit review decision"],
+  "validation": ["generated output checks pass", "repository validator passes", "quality gate has no unresolved blocker"],
+  "license": "MIT",
+  "status": "stable"
+}

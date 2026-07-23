@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/ai-mega-skills/skill-registry.schema.json",
+  "title": "AI Mega Skills Registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "skills"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "skills": {
+      "type": "array",
+      "items": { "$ref": "skill-manifest.schema.json" }
+    }
+  }
+}
