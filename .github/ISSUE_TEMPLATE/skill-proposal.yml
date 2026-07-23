@@ -1,0 +1,36 @@
+name: Skill proposal
+description: Propose a new skill before implementation.
+title: "Skill proposal: "
+labels:
+  - skill-proposal
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Proposed slug
+      description: Use lowercase kebab-case.
+      placeholder: example-skill-slug
+    validations:
+      required: true
+  - type: input
+    id: domain
+    attributes:
+      label: Domain
+      placeholder: software-engineering
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user problem does this skill solve?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: What must be true for this skill to be accepted?
+    validations:
+      required: true
+
