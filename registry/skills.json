@@ -202,6 +202,40 @@
       ],
       "license": "MIT",
       "status": "stable"
+    },
+    {
+      "slug": "ai-code-review",
+      "name": "AI Code Review",
+      "description": "Review software changes for correctness, security, maintainability, performance, API risk, and test quality with actionable evidence.",
+      "domain": "software-engineering",
+      "subdomain": "code-review",
+      "version": "1.0.0",
+      "owners": [
+        "maintainers"
+      ],
+      "tags": [
+        "code-review",
+        "software-quality",
+        "security"
+      ],
+      "inputs": [
+        "complete change set",
+        "behavior context",
+        "verification access",
+        "review priorities"
+      ],
+      "outputs": [
+        "severity-ordered findings",
+        "review evidence",
+        "explicit merge decision"
+      ],
+      "validation": [
+        "repository validator passes",
+        "complete change is inspected",
+        "findings include actionable evidence"
+      ],
+      "license": "MIT",
+      "status": "stable"
     }
   ]
 }
