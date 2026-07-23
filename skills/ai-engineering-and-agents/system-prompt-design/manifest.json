@@ -1,0 +1,15 @@
+{
+  "slug": "system-prompt-design",
+  "name": "System Prompt Design",
+  "description": "Design and maintain the persistent role, authority, workflow, output, safety, and lifecycle contract for AI coding agents.",
+  "domain": "ai-engineering-and-agents",
+  "subdomain": "system-prompt-design",
+  "version": "1.0.0",
+  "owners": ["maintainers"],
+  "tags": ["system-prompts", "agent-design", "governance"],
+  "inputs": ["agent role", "authority model", "tool and environment contract", "quality contract"],
+  "outputs": ["versioned system prompt", "host adapter", "role evaluation cases", "rollout or rollback decision"],
+  "validation": ["repository validator passes", "role and conflict cases are evaluated", "scope does not duplicate task or context engineering"],
+  "license": "MIT",
+  "status": "stable"
+}
