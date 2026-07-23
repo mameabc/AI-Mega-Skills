@@ -4,6 +4,7 @@ This file is generated from `registry/skills.json`. Do not edit it manually.
 
 | Skill | Domain | Version | Status | Description |
 | --- | --- | --- | --- | --- |
+| [Context Engineering](../../skills/ai-engineering-and-agents/context-engineering/) | ai-engineering-and-agents | 1.0.0 | stable | Organize, retrieve, optimize, and refresh repository context so AI coding agents can solve software tasks accurately and safely. |
 | [Prompt Engineering](../../skills/ai-engineering-and-agents/prompt-engineering/) | ai-engineering-and-agents | 1.0.0 | stable | Design and evaluate vendor-neutral prompts that improve AI coding agents' software-engineering results and verification quality. |
 | [Skill Author](../../skills/repository-maintenance/skill-author/) | repository-maintenance | 1.0.0 | stable | Create one complete, evidence-based AI Skill from the official template and prepare it for repository review. |
 | [Skill Reviewer](../../skills/repository-maintenance/skill-reviewer/) | repository-maintenance | 1.0.0 | stable | Review one proposed AI Skill for scope, quality, safety, evidence, and repository compliance before approval. |

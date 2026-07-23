@@ -1,0 +1,15 @@
+{
+  "slug": "context-engineering",
+  "name": "Context Engineering",
+  "description": "Organize, retrieve, optimize, and refresh repository context so AI coding agents can solve software tasks accurately and safely.",
+  "domain": "ai-engineering-and-agents",
+  "subdomain": "context-engineering",
+  "version": "1.0.0",
+  "owners": ["maintainers"],
+  "tags": ["context-engineering", "retrieval", "large-codebases"],
+  "inputs": ["engineering objective", "repository surface", "context budget", "freshness and authority rules"],
+  "outputs": ["task-scoped context plan", "organized context packet", "retrieval and refresh workflow"],
+  "validation": ["repository validator passes", "sources have authority and freshness", "context supports verification without unsafe data exposure"],
+  "license": "MIT",
+  "status": "stable"
+}
