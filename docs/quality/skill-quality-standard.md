@@ -45,3 +45,32 @@ Reject a skill if it:
 - Encourages unsafe automation, scraping abuse, credential exposure, or policy bypass.
 - Contains placeholder text.
 
+## Definition of Done
+
+A skill is done only when:
+
+- The objective is clear.
+- `SKILL.md` follows the authoring standard.
+- `manifest.json` follows the schema.
+- Examples are realistic.
+- Best practices are included.
+- Common mistakes are included.
+- Troubleshooting guidance is included.
+- References are official whenever possible.
+- Validation or review checks are documented.
+- README, registry, and category index updates are included.
+- Repository validation passes.
+- The change is committed and pushed on a feature branch.
+
+## Quality Gate
+
+Every skill must pass this gate before merge:
+
+1. **Purpose:** The skill solves one named problem.
+2. **Fit:** No existing skill already covers the same scope.
+3. **Execution:** Instructions are ordered and actionable.
+4. **Reasoning:** The skill improves decisions, review, debugging, planning, or testing.
+5. **Evidence:** Examples, references, and validation are present.
+6. **Safety:** Risks and prohibited use are documented.
+7. **Maintenance:** Owner, version, status, and deprecation path are clear.
+8. **Catalog:** README and registry entries are updated.
