@@ -90,7 +90,7 @@ if (Test-Path -LiteralPath "skills" -PathType Container) {
   )
 
   $skillDirs = Get-ChildItem -LiteralPath "skills" -Directory -Recurse |
-    Where-Object { Test-Path -LiteralPath (Join-Path $_.FullName "SKILL.md") -PathType Leaf -or Test-Path -LiteralPath (Join-Path $_.FullName "manifest.json") -PathType Leaf }
+    Where-Object { (Test-Path -LiteralPath (Join-Path $_.FullName "SKILL.md") -PathType Leaf) -or (Test-Path -LiteralPath (Join-Path $_.FullName "manifest.json") -PathType Leaf) }
 
   foreach ($dir in $skillDirs) {
     foreach ($requiredSkillFile in $requiredSkillFiles) {

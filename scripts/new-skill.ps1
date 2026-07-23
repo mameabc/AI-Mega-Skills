@@ -14,7 +14,7 @@ function Ask([string]$label) {
   return $value.Trim()
 }
 $values = @{
-  "{{skill_name}}" = Ask "Skill name"; "{{skill_description}}" = Ask "Manifest description (20+ characters)"
+  "{{skill_slug}}" = $SkillSlug; "{{skill_name}}" = Ask "Skill name"; "{{skill_description}}" = Ask "Manifest description (20+ characters)"
   "{{one_sentence_description}}" = Ask "One-sentence description"; "{{short_problem_statement}}" = Ask "Problem this solves"
   "{{domain_slug}}" = $DomainSlug; "{{subdomain_slug}}" = Ask "Subdomain slug"; "{{owner_handle}}" = Ask "Owner handle"
   "{{tag_slug}}" = Ask "Primary tag slug"; "{{input_name}}" = Ask "Primary input name"; "{{input_description}}" = Ask "Primary input description"

@@ -36,7 +36,7 @@ if ($duplicates.Count -gt 0) { throw "Duplicate Skill slugs: $($duplicates.Name 
 $sortedSkills = @($skills | Sort-Object domain, slug)
 $registryJson = (([ordered]@{ schemaVersion = 1; skills = $sortedSkills }) | ConvertTo-Json -Depth 10) + $newline
 $indexLines = @(
-  "# Skill Index", "", "This file is generated from `registry/skills.json`. Do not edit it manually.", ""
+  "# Skill Index", "", 'This file is generated from `registry/skills.json`. Do not edit it manually.', ""
 )
 if ($sortedSkills.Count -eq 0) { $indexLines += "No Skills have been published yet." }
 else {
