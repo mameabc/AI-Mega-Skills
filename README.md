@@ -6,7 +6,7 @@ This repository is currently in its foundation phase. The first milestone is not
 
 ## Current Status
 
-- Skills generated: 7
+- Skills generated: 8
 - Target library size: 500+ validated skills
 - Current phase: repository self-hosting and contributor workflow
 - Scope of this phase: documentation, governance, versioning, CI, quality standards, and roadmap
@@ -76,4 +76,5 @@ This repository is currently in its foundation phase. The first milestone is not
 | [Skill Reviewer](skills/repository-maintenance/skill-reviewer/) | repository-maintenance | 1.0.0 | stable | Review one proposed AI Skill for scope, quality, safety, evidence, and repository compliance before approval. |
 | [Skill Validator](skills/repository-maintenance/skill-validator/) | repository-maintenance | 1.0.0 | stable | Run and interpret fresh automated checks for a Skill and its generated repository registration outputs. |
 | [AI Code Review](skills/software-engineering/ai-code-review/) | software-engineering | 1.0.0 | stable | Review software changes for correctness, security, maintainability, performance, API risk, and test quality with actionable evidence. |
+| [AI Debugging](skills/software-engineering/ai-debugging/) | software-engineering | 1.0.0 | stable | Systematically reproduce, localize, explain, fix, and prevent software failures with evidence-driven debugging workflows. |
 <!-- END GENERATED SKILL CATALOG -->
