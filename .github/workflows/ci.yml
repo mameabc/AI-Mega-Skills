@@ -14,7 +14,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Generate registry
+        shell: pwsh
+        run: pwsh scripts/generate-registry.ps1
+
+      - name: Generate README catalog
+        shell: pwsh
+        run: pwsh scripts/generate-readme.ps1
+
+      - name: Verify generated files are committed
+        shell: pwsh
+        run: git diff --exit-code
+
       - name: Run repository validation
         shell: pwsh
         run: pwsh scripts/validate-repository.ps1
-

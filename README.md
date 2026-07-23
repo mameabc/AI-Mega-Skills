@@ -60,5 +60,12 @@ This repository is currently in its foundation phase. The first milestone is not
 - [Naming Conventions](docs/quality/naming-conventions.md)
 - [Versioning](docs/releases/versioning.md)
 - [Release Workflow](docs/releases/release-workflow.md)
+- [Repository Automation](docs/workflow/repository-automation.md)
 - [500+ Skill Domain Plan](docs/domains/500-skill-domain-roadmap.md)
 - [Foundation Implementation Plan](docs/superpowers/plans/2026-07-23-ai-skills-library-foundation.md)
+
+<!-- BEGIN GENERATED SKILL CATALOG -->
+## Published Skills
+
+No Skills have been published yet.
+<!-- END GENERATED SKILL CATALOG -->
