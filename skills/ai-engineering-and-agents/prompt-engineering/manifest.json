@@ -1,0 +1,15 @@
+{
+  "slug": "prompt-engineering",
+  "name": "Prompt Engineering",
+  "description": "Design and evaluate vendor-neutral prompts that improve AI coding agents' software-engineering results and verification quality.",
+  "domain": "ai-engineering-and-agents",
+  "subdomain": "prompt-design",
+  "version": "1.0.0",
+  "owners": ["maintainers"],
+  "tags": ["prompt-engineering", "software-engineering", "ai-agents"],
+  "inputs": ["engineering outcome", "bounded repository context", "host capabilities", "evaluation criteria"],
+  "outputs": ["vendor-neutral prompt", "representative evaluation cases", "evidence-based revision decision"],
+  "validation": ["repository validator passes", "prompt has normal, ambiguous, and failure-prone tests", "evaluation records observable outcomes"],
+  "license": "MIT",
+  "status": "stable"
+}
