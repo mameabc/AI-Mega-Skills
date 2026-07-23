@@ -1,0 +1,15 @@
+{
+  "slug": "ai-debugging",
+  "name": "AI Debugging",
+  "description": "Systematically reproduce, localize, explain, fix, and prevent software failures with evidence-driven debugging workflows.",
+  "domain": "software-engineering",
+  "subdomain": "debugging",
+  "version": "1.0.0",
+  "owners": ["maintainers"],
+  "tags": ["debugging", "root-cause-analysis", "reliability"],
+  "inputs": ["software symptom", "expected behavior", "reproduction or telemetry", "environment and version"],
+  "outputs": ["debugging evidence", "root cause or explicit uncertainty", "verified fix and regression protection"],
+  "validation": ["repository validator passes", "decision trees and checklists are complete", "production examples are evidence-driven"],
+  "license": "MIT",
+  "status": "stable"
+}
