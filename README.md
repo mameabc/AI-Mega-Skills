@@ -77,4 +77,5 @@ This repository is currently in its foundation phase. The first milestone is not
 | [Skill Validator](skills/repository-maintenance/skill-validator/) | repository-maintenance | 1.0.0 | stable | Run and interpret fresh automated checks for a Skill and its generated repository registration outputs. |
 | [AI Code Review](skills/software-engineering/ai-code-review/) | software-engineering | 1.0.0 | stable | Review software changes for correctness, security, maintainability, performance, API risk, and test quality with actionable evidence. |
 | [AI Debugging](skills/software-engineering/ai-debugging/) | software-engineering | 1.0.0 | stable | Systematically reproduce, localize, explain, fix, and prevent software failures with evidence-driven debugging workflows. |
+| [AI Refactoring](skills/software-engineering/ai-refactoring/) | software-engineering | 1.0.0 | stable | Safely improve existing code through incremental structural changes while preserving behavior and compatibility contracts. |
 <!-- END GENERATED SKILL CATALOG -->
